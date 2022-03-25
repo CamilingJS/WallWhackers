@@ -46,10 +46,19 @@ canvas {
   transform: scale(0.98);
 }
 
+.logo{
+  color: white;
+  background-image: url('./img/SVG_JayCamDevLogo_WhiteT.svg');
+  width: 50px;
+  height: 50px;
+}
+
 .rules-btn {
     position: absolute;
     top: 30px;
     left: 30px;
+    display: flex;
+    align-items: center;
   }
 
 .rules {
